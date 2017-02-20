@@ -3,7 +3,7 @@ $(document).ready(function() {
     $("#blanks form").submit(function(event) {
         var one = document.getElementById("name").value;
         var two = document.getElementById("game").value;
-        var threel = document.getElementById("animal").value;
+        var three = document.getElementById("animal").value;
         var four = document.getElementById("sport").value;
 
 
@@ -37,6 +37,9 @@ $(document).ready(function() {
 
         });
 
+        $("#foo").show();
+        $("#blanks").hide();
 
+        event.preventDefault()
     });
 });
