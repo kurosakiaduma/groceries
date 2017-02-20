@@ -36,10 +36,4 @@ $(document).ready(function() {
         document.getElementById('foo').appendChild(makeUL(groceries));
 
         });
-
-        $("#foo").show();
-        $("#blanks").hide();
-
-        event.preventDefault()
     });
-});
